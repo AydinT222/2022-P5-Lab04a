@@ -33,6 +33,7 @@ public class Lab04avst
         System.out.println("Monthly Payment:\t" + (double)(Math.round(monthlyPay * 100)) / 100); // sorry
         System.out.println("Total Payments:\t\t" + (double)(Math.round(totalPayment * 10)) / 10); //474922.8
         System.out.println("Total Interest:\t\t" + (double)((int)(totalInterest * 10)) / 10); //224922.8
+        // THIS IS NOT PRINTING OUT .8 AND ONLY .6 how did the lab get .8
 
         System.out.println();
     }
